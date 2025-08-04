@@ -69,7 +69,8 @@ while True:
 
 **Multi-Threaded Server (`server-multi-threaded.py`):**
 
-<img width="1388" height="851" alt="image" src="https://github.com/user-attachments/assets/226a33a8-2503-4860-98d4-09673d7d6cbe" />
+<img width="1388" height="851" alt="image" src="https://github.com/user-attachments/assets/a5791de9-c82c-470b-ba2a-d80d853fac3b" />
+
 ```python
 import threading
 
