@@ -15,13 +15,13 @@ def handle_client(client_socket, addr):
     
     while connected:
         message = client_socket.recv(1024).decode("utf-8")
-        if not message:
+        print(f"Received message from client {addr}: {message}")
+        if message.lower() == 'exit':
+            print(f"Client {addr} has disconnected.")
             connected = False
-            break
-        print(f"Received message: {message}")
+            
         response = "Message received"
         client_socket.send(response.encode("utf-8"))
-        
     client_socket.close()
 
 while True:

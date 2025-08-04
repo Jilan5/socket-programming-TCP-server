@@ -18,9 +18,9 @@ while True:
         message = client_socket.recv(1024).decode("utf-8")
         if not message:
             connected = False
-            break
+
         print(f"Received message: {message}")
         response = "Message received"
         client_socket.send(response.encode("utf-8"))
-        
+    print(f"Client {addr} has disconnected.")
     client_socket.close()

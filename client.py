@@ -14,6 +14,9 @@ def send_message(message):
     response = client.recv(1024).decode(format)
     print(f"Server response: {response}")
     
-
-send_message("Hello from the client!")
-client.close()
+while True: 
+    user_input = input("Enter a message to send to the server (or 'exit' to quit): ")
+    send_message(user_input)
+    if user_input.lower() == 'exit':
+        print("Exiting client.")
+        break
