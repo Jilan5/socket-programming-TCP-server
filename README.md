@@ -42,6 +42,8 @@ while True:
 - Exits cleanly when the user types 'exit'.
 
 **Single-Threaded Server (`server.py`):**
+<img width="1388" height="851" alt="image" src="https://github.com/user-attachments/assets/226a33a8-2503-4860-98d4-09673d7d6cbe" />
+
 ```python
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 server.bind((server_ip, server_port))
@@ -66,6 +68,8 @@ while True:
 - Closes the connection when the client disconnects or sends no data.
 
 **Multi-Threaded Server (`server-multi-threaded.py`):**
+<img width="1303" height="795" alt="image" src="https://github.com/user-attachments/assets/09e42c41-f271-477f-928e-e795b46f5eb8" />
+
 ```python
 import threading
 
