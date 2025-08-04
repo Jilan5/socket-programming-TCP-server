@@ -121,17 +121,10 @@ while True:
 3. The client will send a message and print the server's response.
 
 #### 📸 Screenshot Example
-Add a screenshot here showing the terminal output of both the server and client after exchanging messages.
-E.g.:
-```
-Server terminal:
-Connection established with ('127.0.0.1', 54321)
-Received message from client ('127.0.0.1', 54321): hello
+<img width="1480" height="296" alt="image" src="https://github.com/user-attachments/assets/1be35a25-d2dd-4eda-a0b8-f0ac9f1c35da" />
 
-Client terminal:
-Enter a message to send to the server (or 'exit' to quit): hello
-Server response: Message received
-```
+<img width="1480" height="296" alt="image" src="https://github.com/user-attachments/assets/3fac0e6f-0e7f-47a7-8184-80ac0862dc72" />
+
 
 ---
 
@@ -154,23 +147,9 @@ Server response: Message received
 3. Multiple clients can connect and send messages at the same time.
 
 #### 📸 Screenshot Example
-Add a screenshot here showing the server handling multiple clients simultaneously, and the client terminals for each connection.
-E.g.:
-```
-Server terminal:
-Connection established with ('127.0.0.1', 54321)
-Connection established with ('127.0.0.1', 54322)
-Received message from client ('127.0.0.1', 54321): hello
-Received message from client ('127.0.0.1', 54322): hi
+<img width="1480" height="379" alt="image" src="https://github.com/user-attachments/assets/2fa27700-8e3e-4cb6-b10f-953e473a3d0f" />
+<img width="1853" height="413" alt="image" src="https://github.com/user-attachments/assets/e12c7352-d9bf-42b8-8147-9529513a5daf" />
 
-Client 1 terminal:
-Enter a message to send to the server (or 'exit' to quit): hello
-Server response: Message received
-
-Client 2 terminal:
-Enter a message to send to the server (or 'exit' to quit): hi
-Server response: Message received
-```
 
 
 
