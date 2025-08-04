@@ -1,5 +1,5 @@
-# Simple Socket Programming Tutorial
-#
+# TCP server using Python Socket Programming Module
+
 ## Objective
 - Demonstrate basic TCP socket programming in Python.
 - Show how to build both single-threaded and multi-threaded servers.
