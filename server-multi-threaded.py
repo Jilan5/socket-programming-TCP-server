@@ -8,6 +8,7 @@ server_ip = socket.gethostbyname(hostname)
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 server.bind((server_ip, server_port))
 server.listen(5)
+print(f"Server listening on {server_ip}:{server_port}")
 
 def handle_client(client_socket, addr):
     print(f"Connection established with {addr}")
@@ -19,7 +20,7 @@ def handle_client(client_socket, addr):
         if message.lower() == 'exit':
             print(f"Client {addr} has disconnected.")
             connected = False
-            
+
         response = "Message received"
         client_socket.send(response.encode("utf-8"))
     client_socket.close()

@@ -7,6 +7,7 @@ server_ip = socket.gethostbyname(hostname)
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 server.bind((server_ip, server_port))
 server.listen(5)
+print(f"Server listening on {server_ip}:{server_port}")
 
 while True:
     client_socket, addr = server.accept()
